@@ -95,7 +95,7 @@ void main()
 	int zAccl = (data_5 * 256 + data_4);
 	if(zAccl > 32767)
 	{
-	zAccl -= 65536;
+		zAccl -= 65536;
 	}
 
 	// Output data to screen
